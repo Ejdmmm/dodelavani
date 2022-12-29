@@ -1,5 +1,5 @@
-ody {
-    background-image: url(/res/img/fight04.jpg);
+body {
+    background-image: url(/res/img/Nether.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -7,13 +7,13 @@ ody {
     height: 50px;
     width: 50px;
     position: absolute;
-    left:330px;
+    left:430px;
     top: 660px;
 }
 #btn {
         position: absolute;
         top: 880px;
-        left: 345px;
+        left: 425px;
       background: #e62143;
       border-radius: 11px;
       box-sizing: border-box;
@@ -40,15 +40,15 @@ ody {
       border: 0;
     }
     
-    .button-44:active,
-    .button-44:focus {
+    #btn:active,
+    #btn:focus {
       border-bottom-style: none;
       border-color: #dadada;
       box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
       outline: 0;
     }
     
-    .button-44:hover {
+    #btn:hover {
       border-bottom-style: none;
       border-color: #dadada;
     }
@@ -63,16 +63,16 @@ ody {
 }
 #hp {
     position: absolute;
-    top: 600px;
-    left: 380px;
+    top: 615px;
+    left: 490px;
     font-size: 28px;
     color: green;
     
 }
 #hp2 {
     position: absolute;
-    top: 400px;
-    left: 1100px;
+    top: 415px;
+    left: 1150px;
     font-size: 28px;
     color: red;
 }
@@ -82,7 +82,7 @@ top: 300px;
 left: 200px;
 font-size: 50px;
 font-family: fantasy;
-color:green;
+color:rgb(163, 6, 27);
 }
 #GoBack {    
       align-items: center;

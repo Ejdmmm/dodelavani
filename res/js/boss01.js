@@ -4,7 +4,7 @@ const hp = document.getElementById("hp");
 const hp2 = document.getElementById("hp2");
 const info = document.getElementById("info");
 const moneyText = document.getElementById("money")
-let money = 0;
+let money = 1;
 let sharpness = 1;
 
 window.onload = () => {
@@ -47,4 +47,4 @@ if (hp.innerHTML<=0) {
 info.innerHTML = "Zemřel jsi.."
     clearInterval(interval);
 }
-}, 500);
+}, 350);

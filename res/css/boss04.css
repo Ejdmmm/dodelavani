@@ -40,15 +40,15 @@ body {
       border: 0;
     }
     
-    .button-44:active,
-    .button-44:focus {
+    #btn:active,
+    #btn:focus {
       border-bottom-style: none;
       border-color: #dadada;
       box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
       outline: 0;
     }
     
-    .button-44:hover {
+    #btn:hover {
       border-bottom-style: none;
       border-color: #dadada;
     }

@@ -46,4 +46,4 @@ if (hp.innerHTML<=0) {
 info.innerHTML = "Zemřel jsi.."
     clearInterval(interval);
 }
-}, 400);
+}, 250);

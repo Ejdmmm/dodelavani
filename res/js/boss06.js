@@ -32,9 +32,7 @@ btn.onmousedown = () => {
     
     clearInterval(interval);
     btn.style.pointerEvents="none";
-    setTimeout(() => {
-      location.reload();
-    }, 2000);
+    NextBoss.style.display="block";
   } 
 };
 btn.onmouseup = () => {
@@ -46,4 +44,4 @@ if (hp.innerHTML<=0) {
 info.innerHTML = "Zemřel jsi.."
     clearInterval(interval);
 }
-}, 100);
+}, 60);
